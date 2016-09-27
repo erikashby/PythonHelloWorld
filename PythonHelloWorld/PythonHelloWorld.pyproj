@@ -12,6 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>PythonHelloWorld</Name>
     <RootNamespace>PythonHelloWorld</RootNamespace>
+    <InterpreterId>Global|PythonCore|2.7|x64</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PythonHelloWorld.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|2.7|x64" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
